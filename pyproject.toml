@@ -1,7 +1,7 @@
 [project]
 name = "jac-cs-hardware"
 version = "0.1.0"
-description = "Add your description here"
+description = "A collection of programs and tutorials for using the JAC CS hardware, particularly on the reTerminal CM4 platform."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -12,4 +12,10 @@ dependencies = [
 dev = [
     "sphinx>=9.1.0",
     "sphinx-autobuild>=2025.8.25",
+    "commitizen>=4.16.3",
+    "coverage>=7.14.1",
+    "pre-commit>=4.6.0",
+    "pytest>=9.1.0",
+    "ruff>=0.15.17",
+    "identify>=2.6.19",
 ]
